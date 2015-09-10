@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2118B00B0400A8EBB712E01B /* libPods-MyChatroom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE409EAA8A1EF624A1F2BB86 /* libPods-MyChatroom.a */; };
+		B554B17F1BA0C8A60076BD6F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B17E1BA0C8A60076BD6F /* ChatViewController.swift */; };
+		B554B1811BA0D3C20076BD6F /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B1801BA0D3C20076BD6F /* MessageCell.swift */; };
 		B5B95D5B1B9FE91B004D7E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B95D5A1B9FE91B004D7E82 /* AppDelegate.swift */; };
-		B5B95D5D1B9FE91B004D7E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B95D5C1B9FE91B004D7E82 /* ViewController.swift */; };
+		B5B95D5D1B9FE91B004D7E82 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B95D5C1B9FE91B004D7E82 /* LoginViewController.swift */; };
 		B5B95D601B9FE91B004D7E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B95D5E1B9FE91B004D7E82 /* Main.storyboard */; };
 		B5B95D621B9FE91B004D7E82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B95D611B9FE91B004D7E82 /* Images.xcassets */; };
 		B5B95D651B9FE91B004D7E82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B95D631B9FE91B004D7E82 /* LaunchScreen.xib */; };
@@ -26,16 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B116443AC5CBB70C1B75342 /* Pods-MyChatroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChatroom.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyChatroom/Pods-MyChatroom.release.xcconfig"; sourceTree = "<group>"; };
+		82358B72D3D5B22951F2094E /* Pods-MyChatroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChatroom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyChatroom/Pods-MyChatroom.debug.xcconfig"; sourceTree = "<group>"; };
+		B554B17E1BA0C8A60076BD6F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B554B1801BA0D3C20076BD6F /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		B5B95D551B9FE91B004D7E82 /* MyChatroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChatroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B95D591B9FE91B004D7E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B95D5A1B9FE91B004D7E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B95D5C1B9FE91B004D7E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5B95D5C1B9FE91B004D7E82 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B5B95D5F1B9FE91B004D7E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B95D611B9FE91B004D7E82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5B95D641B9FE91B004D7E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B5B95D6A1B9FE91B004D7E82 /* MyChatroomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyChatroomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B95D6F1B9FE91B004D7E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B95D701B9FE91B004D7E82 /* MyChatroomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatroomTests.swift; sourceTree = "<group>"; };
+		B5B95D7A1B9FE98E004D7E82 /* MyChatroom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyChatroom-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE409EAA8A1EF624A1F2BB86 /* libPods-MyChatroom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyChatroom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2118B00B0400A8EBB712E01B /* libPods-MyChatroom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +66,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F5A8B201FCC7E41F12F5F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE409EAA8A1EF624A1F2BB86 /* libPods-MyChatroom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		907468421D4677F2EED63FB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82358B72D3D5B22951F2094E /* Pods-MyChatroom.debug.xcconfig */,
+				7B116443AC5CBB70C1B75342 /* Pods-MyChatroom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B554B17D1BA0C83F0076BD6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5B95D5C1B9FE91B004D7E82 /* LoginViewController.swift */,
+				B554B17E1BA0C8A60076BD6F /* ChatViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B554B1821BA0D4790076BD6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B554B1801BA0D3C20076BD6F /* MessageCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		B5B95D4C1B9FE91B004D7E82 = {
 			isa = PBXGroup;
 			children = (
 				B5B95D571B9FE91B004D7E82 /* MyChatroom */,
 				B5B95D6D1B9FE91B004D7E82 /* MyChatroomTests */,
 				B5B95D561B9FE91B004D7E82 /* Products */,
+				907468421D4677F2EED63FB8 /* Pods */,
+				8F5A8B201FCC7E41F12F5F05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +123,14 @@
 		B5B95D571B9FE91B004D7E82 /* MyChatroom */ = {
 			isa = PBXGroup;
 			children = (
+				B554B1821BA0D4790076BD6F /* View */,
+				B554B17D1BA0C83F0076BD6F /* Controller */,
 				B5B95D5A1B9FE91B004D7E82 /* AppDelegate.swift */,
-				B5B95D5C1B9FE91B004D7E82 /* ViewController.swift */,
 				B5B95D5E1B9FE91B004D7E82 /* Main.storyboard */,
 				B5B95D611B9FE91B004D7E82 /* Images.xcassets */,
 				B5B95D631B9FE91B004D7E82 /* LaunchScreen.xib */,
 				B5B95D581B9FE91B004D7E82 /* Supporting Files */,
+				B5B95D7A1B9FE98E004D7E82 /* MyChatroom-Bridging-Header.h */,
 			);
 			path = MyChatroom;
 			sourceTree = "<group>";
@@ -119,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B95D741B9FE91B004D7E82 /* Build configuration list for PBXNativeTarget "MyChatroom" */;
 			buildPhases = (
+				AB366F2D02901DAF1B960A90 /* Check Pods Manifest.lock */,
 				B5B95D511B9FE91B004D7E82 /* Sources */,
 				B5B95D521B9FE91B004D7E82 /* Frameworks */,
 				B5B95D531B9FE91B004D7E82 /* Resources */,
+				0FB09D0FFCEA6E21D08F5B38 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,12 +257,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FB09D0FFCEA6E21D08F5B38 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyChatroom/Pods-MyChatroom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB366F2D02901DAF1B960A90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5B95D511B9FE91B004D7E82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B95D5D1B9FE91B004D7E82 /* ViewController.swift in Sources */,
+				B5B95D5D1B9FE91B004D7E82 /* LoginViewController.swift in Sources */,
+				B554B1811BA0D3C20076BD6F /* MessageCell.swift in Sources */,
+				B554B17F1BA0C8A60076BD6F /* ChatViewController.swift in Sources */,
 				B5B95D5B1B9FE91B004D7E82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,21 +423,42 @@
 		};
 		B5B95D751B9FE91B004D7E82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82358B72D3D5B22951F2094E /* Pods-MyChatroom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ldong/Downloads/FacebookSDKs-iOS-20150813",
+					"/Users/ldong/Projects/sdk/FacebookSDKs-iOS-20150813",
+					"/Users/ldong/Projects/sdk/parse-library-1.8.2",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyChatroom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyChatroom/MyChatroom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B5B95D761B9FE91B004D7E82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B116443AC5CBB70C1B75342 /* Pods-MyChatroom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ldong/Downloads/FacebookSDKs-iOS-20150813",
+					"/Users/ldong/Projects/sdk/FacebookSDKs-iOS-20150813",
+					"/Users/ldong/Projects/sdk/parse-library-1.8.2",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyChatroom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyChatroom/MyChatroom-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +515,7 @@
 				B5B95D761B9FE91B004D7E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5B95D771B9FE91B004D7E82 /* Build configuration list for PBXNativeTarget "MyChatroomTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +524,7 @@
 				B5B95D791B9FE91B004D7E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
